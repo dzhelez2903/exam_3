@@ -1,1 +1,391 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url(../fonts/ProximaNova-Bold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url(../fonts/ProximaNova-Semibold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Bold";
+  src: url(../fonts/PTSans-Bold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Italic";
+  src: url(../fonts/PTSans-Italic.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Regular";
+  src: url(../fonts/PTSans-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1600px;
+  background: url(../img/bgd/header_bgd.png) no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  padding-top: 35px;
+}
+
+header .header__menu__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 0 auto 330px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header__menu__container img {
+  padding-bottom: 10px;
+}
+
+header .header__menu__container .header__menu__container__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 51%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__menu__container .header__menu__container__menu .header__menu__container__menu_link {
+  font-family: "Proxima Nova Semibold";
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  padding-bottom: 10px;
+}
+
+header .header__menu__container .header__menu__container__menu .header__menu__container__menu_link:hover {
+  border-bottom: 2px solid #fff;
+}
+
+header .header__container {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 59%;
+}
+
+header .header__container h1 {
+  font-family: "Proxima Nova Bold";
+  font-size: 71px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+header .header__container p {
+  font-family: "PTSans Italic.woff";
+  font-size: 30px;
+  color: #fff;
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 125px 0;
+  background-color: #ebebeb;
+}
+
+.about .about__container {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 71%;
+}
+
+.about .about__container .about__container__picture {
+  margin-right: 125px;
+}
+
+.about .about__container .about__container__text {
+  padding-top: 80px;
+  font-family: "PTSans Regular";
+  font-size: 20px;
+  color: #665f60;
+  position: relative;
+}
+
+.about .about__container .about__container__text p:nth-child(2) {
+  margin: 35px 0 95px;
+}
+
+.about .about__container .about__container__text span {
+  font-family: "PTSans Bold";
+}
+
+.about .about__container .about__container__text button {
+  position: absolute;
+  left: 44%;
+  font-family: "PTSans Italic";
+  font-size: 20px;
+  color: #7d7a7c;
+  padding: 20px 50px;
+  border: 1px solid #7d7a7c;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.about .about__container .about__container__text button:hover {
+  background-color: #7d7a7c;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.SERVICESES {
+  margin: 0 auto;
+  max-width: 1600px;
+  background-color: #ebebeb;
+}
+
+.SERVICESES .SERVICESES__grid_container {
+  margin: 0 auto;
+  width: 71%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33.33% 33.33% 33.33%;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+  -ms-grid-rows: 400px 400px;
+      grid-template-rows: 400px 400px;
+  gap: 0px 0px;
+      grid-template-areas: "SERVICESES__GRAPHIC_DESIGN SERVICESES__WEB_DEVELOPMENT SERVICESES__OUR_SERVICES" "SERVICESES__SEO_MARKETING SERVICESES__MOBILE_DEVELOPMENT SERVICESES__OUR_SERVICES";
+}
+
+.SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: SERVICESES__OUR_SERVICES;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 110px 65px 0;
+  background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
+}
+
+.SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES img {
+  width: 62px;
+}
+
+.SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES h2 {
+  margin: 30px 0 123px 0;
+  font-family: "Proxima Nova Semibold";
+  font-size: 35px;
+  color: #fff;
+}
+
+.SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES p {
+  display: block;
+  text-align: center;
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #fff;
+}
+
+.SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES p span {
+  font-family: "PTSans Bold";
+}
+
+.SERVICESES .SERVICESES__GRAPHIC_DESIGN {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: SERVICESES__GRAPHIC_DESIGN;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 70px 0;
+  background-color: #dbdbdb;
+}
+
+.SERVICESES .SERVICESES__GRAPHIC_DESIGN img {
+  width: 47px;
+}
+
+.SERVICESES .SERVICESES__GRAPHIC_DESIGN h3 {
+  margin: 30px 0 25px 0;
+  font-family: "PTSans Bold";
+  font-size: 24px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__GRAPHIC_DESIGN p {
+  display: block;
+  text-align: center;
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__WEB_DEVELOPMENT {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: SERVICESES__WEB_DEVELOPMENT;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 70px 0;
+}
+
+.SERVICESES .SERVICESES__WEB_DEVELOPMENT img {
+  width: 58px;
+}
+
+.SERVICESES .SERVICESES__WEB_DEVELOPMENT h3 {
+  margin: 30px 0 25px 0;
+  font-family: "PTSans Bold";
+  font-size: 24px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__WEB_DEVELOPMENT p {
+  display: block;
+  text-align: center;
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__SEO_MARKETING {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: SERVICESES__SEO_MARKETING;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 70px 0;
+}
+
+.SERVICESES .SERVICESES__SEO_MARKETING img {
+  width: 47px;
+}
+
+.SERVICESES .SERVICESES__SEO_MARKETING h3 {
+  margin: 30px 0 25px 0;
+  font-family: "PTSans Bold";
+  font-size: 24px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__SEO_MARKETING p {
+  display: block;
+  text-align: center;
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__MOBILE_DEVELOPMENT {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: SERVICESES__MOBILE_DEVELOPMENT;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 65px 0;
+  background-color: #dbdbdb;
+}
+
+.SERVICESES .SERVICESES__MOBILE_DEVELOPMENT img {
+  width: 36px;
+}
+
+.SERVICESES .SERVICESES__MOBILE_DEVELOPMENT h3 {
+  margin: 30px 0 25px 0;
+  font-family: "PTSans Bold";
+  font-size: 24px;
+  color: #665f60;
+}
+
+.SERVICESES .SERVICESES__MOBILE_DEVELOPMENT p {
+  display: block;
+  text-align: center;
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #665f60;
+}
+/*# sourceMappingURL=style.css.map */

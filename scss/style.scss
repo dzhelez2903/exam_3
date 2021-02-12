@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "Proxima Nova Bold";
+  src: url(../fonts/ProximaNova-Bold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url(../fonts/ProximaNova-Semibold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Bold";
+  src: url(../fonts/PTSans-Bold.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Italic";
+  src: url(../fonts/PTSans-Italic.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans Regular";
+  src: url(../fonts/PTSans-Regular.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1600px;
+  background: url(../img/bgd/header_bgd.png) no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  padding-top: 35px;
+
+  .header__menu__container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto 330px;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      padding-bottom: 10px;
+    }
+
+    .header__menu__container__menu {
+      display: flex;
+      width: 51%;
+      justify-content: space-between;
+
+      .header__menu__container__menu_link {
+        font-family: "Proxima Nova Semibold";
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        border-bottom: 2px solid transparent;
+        transition: 0.2s;
+        padding-bottom: 10px;
+
+        &:hover {
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
+  }
+
+  .header__container {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 59%;
+
+    h1 {
+      font-family: "Proxima Nova Bold";
+      font-size: 71px;
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+    }
+    p {
+      font-family: "PTSans Italic.woff";
+      font-size: 30px;
+      color: #fff;
+    }
+  }
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding: 125px 0;
+  background-color: #ebebeb;
+
+  .about__container {
+    margin: 0 auto;
+    display: flex;
+    width: 71%;
+
+    .about__container__picture {
+      margin-right: 125px;
+    }
+
+    .about__container__text {
+      padding-top: 80px;
+      font-family: "PTSans Regular";
+      font-size: 20px;
+      color: #665f60;
+      position: relative;
+
+      & p:nth-child(2) {
+        margin: 35px 0 95px;
+      }
+
+      span {
+        font-family: "PTSans Bold";
+      }
+
+      button {
+        position: absolute;
+        left: 44%;
+        font-family: "PTSans Italic";
+        font-size: 20px;
+        color: #7d7a7c;
+        padding: 20px 50px;
+        border: 1px solid #7d7a7c;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #7d7a7c;
+          color: #fff;
+          border: 1px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+.SERVICESES {
+  margin: 0 auto;
+  max-width: 1600px;
+  background-color: #ebebeb;
+
+  .SERVICESES__grid_container {
+    margin: 0 auto;
+    width: 71%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 400px 400px;
+    gap: 0px 0px;
+    grid-template-areas:
+      "SERVICESES__GRAPHIC_DESIGN SERVICESES__WEB_DEVELOPMENT SERVICESES__OUR_SERVICES"
+      "SERVICESES__SEO_MARKETING SERVICESES__MOBILE_DEVELOPMENT SERVICESES__OUR_SERVICES";
+
+      .SERVICESES__OUR_SERVICES {
+        grid-area: SERVICESES__OUR_SERVICES; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 110px 65px 0;
+        background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
+    
+        img {
+          width: 62px;
+        }
+    
+        h2 {
+          margin: 30px 0 123px 0;
+          font-family: "Proxima Nova Semibold";
+          font-size: 35px;
+          color: #fff;
+        }
+        p {
+          display: block;
+          text-align: center;
+          font-family: "PTSans Italic";
+          font-size: 18px;
+          color: #fff;
+    
+          span {
+            font-family: "PTSans Bold"
+          }
+        }
+      }
+      }
+      
+      .SERVICESES__GRAPHIC_DESIGN {
+        grid-area: SERVICESES__GRAPHIC_DESIGN;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 70px 0;
+        background-color: #dbdbdb;
+    
+        img {
+          width: 47px;
+        }
+    
+        h3 {
+          margin: 30px 0 25px 0;
+          font-family: "PTSans Bold";
+          font-size: 24px;
+          color: #665f60;
+        }
+        p {
+          display: block;
+          text-align: center;
+          font-family: "PTSans Italic";
+          font-size: 18px;
+          color: #665f60;
+        }
+      }
+      
+      .SERVICESES__WEB_DEVELOPMENT {
+        grid-area: SERVICESES__WEB_DEVELOPMENT;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 70px 0;
+    
+        img {
+          width: 58px;
+        }
+    
+        h3 {
+          margin: 30px 0 25px 0;
+          font-family: "PTSans Bold";
+          font-size: 24px;
+          color: #665f60;
+        }
+        p {
+          display: block;
+          text-align: center;
+          font-family: "PTSans Italic";
+          font-size: 18px;
+          color: #665f60;
+        } 
+      }
+      
+      .SERVICESES__SEO_MARKETING {
+        grid-area: SERVICESES__SEO_MARKETING;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 70px 0;
+    
+        img {
+          width: 47px;
+        }
+    
+        h3 {
+          margin: 30px 0 25px 0;
+          font-family: "PTSans Bold";
+          font-size: 24px;
+          color: #665f60;
+        }
+        p {
+          display: block;
+          text-align: center;
+          font-family: "PTSans Italic";
+          font-size: 18px;
+          color: #665f60;
+        }
+      }
+      
+      .SERVICESES__MOBILE_DEVELOPMENT {
+        grid-area: SERVICESES__MOBILE_DEVELOPMENT;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 65px 0;
+        background-color: #dbdbdb;
+    
+        img {
+          width: 36px;
+        }
+    
+        h3 {
+          margin: 30px 0 25px 0;
+          font-family: "PTSans Bold";
+          font-size: 24px;
+          color: #665f60;
+        }
+        p {
+          display: block;
+          text-align: center;
+          font-family: "PTSans Italic";
+          font-size: 18px;
+          color: #665f60;
+        }
+  }
+  } 
+
