@@ -1,12 +1,14 @@
 /*set slider*/
 
-$(".second_section_container").slick({
+$(".works__slider").slick({
   dots: true,
   arrows: true,
   infinite: true,
-  speed: 300,
-  slidesToShow: 3,
+  speed: 500,
+  slidesToShow: 1,
   slidesToScroll: 1,
+  fade: true,
+  cssEase: 'linear',
   responsive: [
     {
       breakpoint: 991,
