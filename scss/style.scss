@@ -35,22 +35,22 @@
 
 html {
   width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
   width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
 header {
   margin: 0 auto;
-  max-width: 1600px;
+  width: 100%;
   background: url(../img/bgd/header_bgd.png) no-repeat;
-  background-attachment: cover;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-attachment: fixed;
   padding-top: 35px;
 
   .header__menu__container {
@@ -112,9 +112,10 @@ header {
 
 .about {
   margin: 0 auto;
-  max-width: 1600px;
+  width: 100%;
   padding: 125px 0;
   background-color: #ebebeb;
+  background-size: 100% 100%;
 
   .about__container {
     margin: 0 auto;
@@ -163,8 +164,9 @@ header {
 
 .SERVICESES {
   margin: 0 auto;
-  max-width: 1600px;
+  width: 100%;
   background-color: #ebebeb;
+  background-size: 100% 100%;
 
   .SERVICESES__grid_container {
     margin: 0 auto;
@@ -184,6 +186,8 @@ header {
       align-items: center;
       padding: 110px 65px 0;
       background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
+      background-position: cover;
+      background-size: 100% 100%;
 
       img {
         width: 62px;
@@ -324,10 +328,12 @@ header {
 .works {
   margin: 0 auto;
   text-align: center;
-  max-width: 1600px;
-  padding: 50px 0 60px;
+  width: 100%;
+  padding: 50px 0 0 0;
   background: url(../img/bgd/works_bgd.png) no-repeat;
-  background-attachment: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 
   h2 {
     margin: 35px 0 70px;
@@ -384,6 +390,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
   }
 
   .slick-dots li {
@@ -414,10 +421,12 @@ header {
     font-size: 20px;
     color: #fff;
     padding: 20px 45px;
+    margin-bottom: 50px;
     border: 1px solid #fff;
     background-color: transparent;
     transition: 0.3s;
     cursor: pointer;
+
 
     &:hover {
       background-color: #fff;

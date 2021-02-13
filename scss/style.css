@@ -35,22 +35,22 @@
 
 html {
   width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
   width: 100%;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
 header {
   margin: 0 auto;
-  max-width: 1600px;
+  width: 100%;
   background: url(../img/bgd/header_bgd.png) no-repeat;
-  background-attachment: cover;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-attachment: fixed;
   padding-top: 35px;
 }
 
@@ -129,9 +129,10 @@ header .header__container p {
 
 .about {
   margin: 0 auto;
-  max-width: 1600px;
+  width: 100%;
   padding: 125px 0;
   background-color: #ebebeb;
+  background-size: 100% 100%;
 }
 
 .about .about__container {
@@ -184,8 +185,9 @@ header .header__container p {
 
 .SERVICESES {
   margin: 0 auto;
-  max-width: 1600px;
+  width: 100%;
   background-color: #ebebeb;
+  background-size: 100% 100%;
 }
 
 .SERVICESES .SERVICESES__grid_container {
@@ -218,6 +220,8 @@ header .header__container p {
           align-items: center;
   padding: 110px 65px 0;
   background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
+  background-position: cover;
+  background-size: 100% 100%;
 }
 
 .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES img {
@@ -392,10 +396,12 @@ header .header__container p {
 .works {
   margin: 0 auto;
   text-align: center;
-  max-width: 1600px;
-  padding: 50px 0 60px;
+  width: 100%;
+  padding: 50px 0 0 0;
   background: url(../img/bgd/works_bgd.png) no-repeat;
-  background-attachment: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .works h2 {
@@ -494,6 +500,7 @@ header .header__container p {
   font-size: 20px;
   color: #fff;
   padding: 20px 45px;
+  margin-bottom: 50px;
   border: 1px solid #fff;
   background-color: transparent;
   -webkit-transition: 0.3s;
