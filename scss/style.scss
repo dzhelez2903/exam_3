@@ -443,7 +443,6 @@ header {
   background-color: #ebebeb;
   background-size: 100% 100%;
   text-align: center;
-  z-index: -1;
 
   h2 {
     margin: 35px 0 195px;
@@ -465,38 +464,38 @@ header {
       margin: 0 15px 0 15px;
       position: relative;
 
-    .text {
-      background-color: #fff;
-      width: 350px;
-      height: 353px;
-      position: absolute;
-      top: 130px;
-      z-index: -1;
+      .text {
+        background-color: #fff;
+        width: 350px;
+        height: 353px;
+        position: absolute;
+        top: 130px;
+        z-index: -1;
 
-      .name {
-        font-family: "Proxima Nova Bold";
-        font-size: 24px;
-        color: #9f9acf;
-        text-transform: uppercase;
-        padding-top: 165px;
-      }
+        .name {
+          font-family: "Proxima Nova Bold";
+          font-size: 24px;
+          color: #9f9acf;
+          text-transform: uppercase;
+          padding-top: 165px;
+        }
 
-      .position {
-        font-family: "PTSans Italic";
-        font-size: 24px;
-        color: #665f60;
-        margin: 40px 0 40px;
-      }
+        .position {
+          font-family: "PTSans Italic";
+          font-size: 24px;
+          color: #665f60;
+          margin: 40px 0 40px;
+        }
 
-      .social {
-        background-color: #9f9acf;
+        .social {
+          background-color: #9f9acf;
 
-        li {
-          display: inline-block;
-          margin: 20px 15px 20px 0;
+          li {
+            display: inline-block;
+            margin: 20px 15px 20px 0;
+          }
         }
       }
-    }
     }
 
     .slick-track {
