@@ -8,7 +8,7 @@ $(".works__slider").slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   fade: true,
-  cssEase: 'linear',
+  cssEase: "linear",
   responsive: [
     {
       breakpoint: 991,
@@ -39,7 +39,7 @@ $(".our_team__slider").slick({
   dots: false,
   arrows: true,
   infinite: true,
-  speed: 500,
+  speed: 300,
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [
@@ -99,4 +99,3 @@ function burgerMenu(selector) {
 }
 
 burgerMenu(".header__mobile_menu");
-

@@ -535,7 +535,7 @@ header .header__container p {
 
 .our_team .our_team__slider {
   margin: 0 auto 50px;
-  width: 60%;
+  width: 1110px;
   position: relative;
 }
 
@@ -585,11 +585,6 @@ header .header__container p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
 }
 
 .our_team .our_team__slider .slick-list {
