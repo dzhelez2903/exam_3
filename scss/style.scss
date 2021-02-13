@@ -105,7 +105,7 @@ header {
       font-family: "PTSans Italic.woff";
       font-size: 30px;
       color: #fff;
-      
+
     }
   }
 }
@@ -432,6 +432,107 @@ header {
       background-color: #fff;
       color: #b5b3d7;
       box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+    }
+  }
+}
+
+.our_team {
+  margin: 0 auto;
+  width: 100%;
+  padding: 55px 0 100px 0;
+  background-color: #ebebeb;
+  background-size: 100% 100%;
+  text-align: center;
+  z-index: -1;
+
+  h2 {
+    margin: 35px 0 195px;
+    font-family: "Proxima Nova Semibold";
+    font-size: 36px;
+    color: #665f60;
+    text-transform: uppercase;
+  }
+
+  .our_team__slider {
+    margin: 0 auto 50px;
+    width: 70%;
+    position: relative;
+    
+    .card {
+      max-width: 350px;
+      background-color: #fff;
+      text-align: center;
+      margin: 0 15px 0 15px;
+      position: relative;
+
+      .face {
+        position: absolute;
+        transform: translate(50% 50%);
+        top: -100px;
+        left: 12.5%;
+        z-index: 1;
+      }
+
+      .name {
+        font-family: "Proxima Nova Bold";
+        font-size: 24px;
+        color: #9f9acf;
+        text-transform: uppercase;
+        margin-top: 165px;
+      }
+      
+      .position {
+        font-family: "PTSans Italic";
+        font-size: 24px;
+        color: #665f60;
+        margin: 40px 0 50px;
+      }
+
+      .social {
+        background-color: #9f9acf;
+
+        li {
+          display: inline-block;
+          margin: 20px 15px 20px 0;
+        }
+      }
+    }
+
+    .slick-track {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
+
+    .slick-list {
+      overflow: hidden;
+    }
+
+    .slick-arrow {
+      position: absolute;
+      top: 40%;
+      z-index: 1;
+      font-size: 0;
+      width: 22px;
+      height: 38px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .slick-arrow:active,
+    .slick-arrow:focus {
+      outline: none;
+    }
+
+    .slick-arrow.slick-prev {
+      left: -30%;
+      background: url(../img/icons/arrow_left.png) 0 0 / 100% no-repeat;
+    }
+
+    .slick-arrow.slick-next {
+      right: -30%;
+      background: url(../img/icons/arrow_right.png) 0 0 / 100% no-repeat;
     }
   }
 }

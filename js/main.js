@@ -35,6 +35,39 @@ $(".works__slider").slick({
   ],
 });
 
+$(".our_team__slider").slick({
+  dots: false,
+  arrows: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        arrows: false,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        arrows: false,
+        dots: false,
+      },
+    },
+  ],
+});
+
 /*set mobile menu*/
 
 function burgerMenu(selector) {
