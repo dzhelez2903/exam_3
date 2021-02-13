@@ -455,37 +455,37 @@ header {
 
   .our_team__slider {
     margin: 0 auto 50px;
-    width: 70%;
+    width: 60%;
     position: relative;
-    
+
     .card {
       max-width: 350px;
-      background-color: #fff;
+      height: 488px;
       text-align: center;
       margin: 0 15px 0 15px;
       position: relative;
 
-      .face {
-        position: absolute;
-        transform: translate(50% 50%);
-        top: -100px;
-        left: 12.5%;
-        z-index: 1;
-      }
+    .text {
+      background-color: #fff;
+      width: 350px;
+      height: 353px;
+      position: absolute;
+      top: 130px;
+      z-index: -1;
 
       .name {
         font-family: "Proxima Nova Bold";
         font-size: 24px;
         color: #9f9acf;
         text-transform: uppercase;
-        margin-top: 165px;
+        padding-top: 165px;
       }
-      
+
       .position {
         font-family: "PTSans Italic";
         font-size: 24px;
         color: #665f60;
-        margin: 40px 0 50px;
+        margin: 40px 0 40px;
       }
 
       .social {
@@ -496,6 +496,7 @@ header {
           margin: 20px 15px 20px 0;
         }
       }
+    }
     }
 
     .slick-track {
@@ -511,9 +512,9 @@ header {
 
     .slick-arrow {
       position: absolute;
-      top: 40%;
+      top: 56%;
       z-index: 1;
-      font-size: 0;
+      font-size: 0px;
       width: 22px;
       height: 38px;
       border: none;
@@ -526,13 +527,13 @@ header {
     }
 
     .slick-arrow.slick-prev {
-      left: -30%;
-      background: url(../img/icons/arrow_left.png) 0 0 / 100% no-repeat;
+      left: -60px;
+      background: url(../img/icons/left.png) 0 0 / 100% no-repeat;
     }
 
     .slick-arrow.slick-next {
-      right: -30%;
-      background: url(../img/icons/arrow_right.png) 0 0 / 100% no-repeat;
+      right: -60px;
+      background: url(../img/icons/right.png) 0 0 / 100% no-repeat;
     }
   }
 }
