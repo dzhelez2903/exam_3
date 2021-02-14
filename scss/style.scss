@@ -534,3 +534,16 @@ header {
     }
   }
 }
+
+.contact {
+  #map {
+    height: 900px;
+
+    .test {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      z-index: 1;
+    }
+  }
+}

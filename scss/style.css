@@ -615,4 +615,15 @@ header .header__container p {
   right: -60px;
   background: url(../img/icons/right.png) 0 0/100% no-repeat;
 }
+
+.contact #map {
+  height: 900px;
+}
+
+.contact #map .test {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */
