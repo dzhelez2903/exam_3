@@ -240,7 +240,7 @@ function initMap() {
   // Create a map object, and include the MapTypeId to add
   // to the map type control.
   const map = new google.maps.Map(document.getElementById("map"), { 
-    center: { lat: 49.22793659020365, lng: 28.45034858653216 },
+    center: { lat: 49.229740509967264, lng: 28.450244185658025 },
     zoom: 17,
     mapTypeControlOptions: {
       mapTypeIds: ["roadmap", "satellite", "hybrid", "terrain", "styled_map"],
@@ -251,11 +251,14 @@ function initMap() {
   map.mapTypes.set("styled_map", styledMapType);
   map.setMapTypeId("styled_map");
 
+  image = '../img/icons/pin.png'
   const marker = new google.maps.Marker({
     // The below line is equivalent to writing:
     // position: new google.maps.LatLng(-34.397, 150.644)
-    position: { lat: 49.23034135336109, lng: 28.445238399796878 },
+    position: { lat: 49.230918284566734, lng: 28.442924003504192 }, 
+    animation: google.maps.Animation.BOUNCE,
     map: map,
+    icon: image
   });
   // You can use a LatLng literal in place of a google.maps.LatLng object when
   // creating the Marker object. Once the Marker object is instantiated, its
@@ -263,7 +266,7 @@ function initMap() {
   // we retrieve the marker's position using the
   // google.maps.LatLng.getPosition() method.
   const infowindow = new google.maps.InfoWindow({
-    content: "<p>Marker Location:" + marker.getPosition() + "</p>",
+    content: '<p>Beetroot Academy</p><img src="../img/img/origami.png" alt="">',
   });
   google.maps.event.addListener(marker, "click", () => {
     infowindow.open(map, marker);
