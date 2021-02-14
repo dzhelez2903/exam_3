@@ -251,14 +251,14 @@ function initMap() {
   map.mapTypes.set("styled_map", styledMapType);
   map.setMapTypeId("styled_map");
 
-  //image = '../img/icons/pin.png'
+  image = '../img/icons/pin.png'
   const marker = new google.maps.Marker({
     // The below line is equivalent to writing:
     // position: new google.maps.LatLng(-34.397, 150.644)
     position: { lat: 49.230918284566734, lng: 28.442924003504192 }, 
     animation: google.maps.Animation.BOUNCE,
     map: map,
-    //icon: image
+    icon: image
   });
   // You can use a LatLng literal in place of a google.maps.LatLng object when
   // creating the Marker object. Once the Marker object is instantiated, its
