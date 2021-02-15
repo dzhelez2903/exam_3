@@ -351,7 +351,7 @@ function initMap() {
   map.mapTypes.set("styled_map", styledMapType);
   map.setMapTypeId("styled_map");
 
-  image = 'img/icons/pin.png'
+  image = './img/icons/pin.png'
   const marker = new google.maps.Marker({
     // The below line is equivalent to writing:
     // position: new google.maps.LatLng(-34.397, 150.644)
