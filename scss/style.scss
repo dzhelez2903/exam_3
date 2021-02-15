@@ -537,7 +537,7 @@ header {
   position: relative;
 
   #map {
-    height: 900px;
+    height: 950px;
   }
 
   .title__container {
@@ -559,9 +559,8 @@ header {
 
   .contacts__input {
     position: absolute;
-    transform: translate(-50% -50%);
     left: 14.6%;
-    top: 40%;
+    top: 435px;
     width: 71%;
     margin: 0 auto;
     display: grid;
@@ -598,7 +597,7 @@ header {
       padding: 30px 0 0 30px;
 
       &:focus {
-        box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+        box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
       }
     }
   }
@@ -613,7 +612,7 @@ header {
     padding-left: 30px;
 
     &:focus {
-      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
     }
   }
 
@@ -634,7 +633,7 @@ header {
       color: #fff;
       text-transform: uppercase;
       background-color: #9f9acf;
-      margin: 25px 0 54px;
+      margin: 25px 0 0;
       padding: 25px 70px;
       border: 2px solid transparent;
       border-radius: 4px;
@@ -650,4 +649,63 @@ header {
       }
     }
   }
-}
+
+  .contacts__address {
+    display: flex;
+    position: absolute;
+    top: 220px;
+    right: -260px;
+    transition: 0.3s;
+
+    &:hover {
+      right: -2px;
+    }
+  }
+
+  .contacts__phone {
+    display: flex;
+    position: absolute;
+    top: 310px;
+    right: -260px;
+    transition: 0.3s;
+
+    &:hover {
+      right: -2px;
+    }
+  }
+
+    .icons {
+      display: flex;
+      width: 90px;
+      height: 90px;
+      background-color: #9f9acf;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .text {
+      display: flex;
+      width: 240px;
+      background-color: #fff;
+      opacity: 0.7;
+      justify-content: center;
+      align-items: center;
+      padding-left: 20px;
+      font-family: "PTSans Regular";
+      font-size: 18px;
+      color: #665f60;
+    }
+
+    .home {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 84px;
+      height: 84px;
+      background-color: #b3afd4;
+      position: absolute;
+      right: 128px;
+      top: 825px;
+    }
+  }
+

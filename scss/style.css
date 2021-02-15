@@ -622,7 +622,7 @@ header .header__container p {
 }
 
 .contact #map {
-  height: 900px;
+  height: 950px;
 }
 
 .contact .title__container {
@@ -644,10 +644,8 @@ header .header__container p {
 
 .contact .contacts__input {
   position: absolute;
-  -webkit-transform: translate(-50% -50%);
-          transform: translate(-50% -50%);
   left: 14.6%;
-  top: 40%;
+  top: 435px;
   width: 71%;
   margin: 0 auto;
   display: -ms-grid;
@@ -699,8 +697,8 @@ header .header__container p {
 }
 
 .contact .message textarea:focus {
-  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
-          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
 }
 
 .contact .inputs {
@@ -714,8 +712,8 @@ header .header__container p {
 }
 
 .contact .inputs:focus {
-  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
-          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
 }
 
 .contact ::-webkit-input-placeholder {
@@ -761,7 +759,7 @@ header .header__container p {
   color: #fff;
   text-transform: uppercase;
   background-color: #9f9acf;
-  margin: 25px 0 54px;
+  margin: 25px 0 0;
   padding: 25px 70px;
   border: 2px solid transparent;
   border-radius: 4px;
@@ -777,5 +775,87 @@ header .header__container p {
   border: 2px solid #9f9acf;
   -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
           box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+}
+
+.contact .contacts__address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 220px;
+  right: -260px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .contacts__address:hover {
+  right: -2px;
+}
+
+.contact .contacts__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 310px;
+  right: -260px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .contacts__phone:hover {
+  right: -2px;
+}
+
+.contact .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90px;
+  height: 90px;
+  background-color: #9f9acf;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 240px;
+  background-color: #fff;
+  opacity: 0.7;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+  font-family: "PTSans Regular";
+  font-size: 18px;
+  color: #665f60;
+}
+
+.contact .home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 84px;
+  height: 84px;
+  background-color: #b3afd4;
+  position: absolute;
+  right: 128px;
+  top: 825px;
 }
 /*# sourceMappingURL=style.css.map */
