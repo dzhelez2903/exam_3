@@ -774,7 +774,7 @@ header .header__container p {
 .contact .buttoh .btn:hover {
   color: #9f9acf;
   background-color: #ebebeb;
-  border: 2px solid #8783b0;
+  border: 2px solid #9f9acf;
   -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
           box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
 }
