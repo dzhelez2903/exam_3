@@ -173,7 +173,7 @@ function initMap() {
             "elementType": "geometry",
             "stylers": [
                 {
-                    "color": "#dedede"
+                    "color": "#c8c4db"
                 },
                 {
                     "lightness": 21
@@ -338,10 +338,10 @@ function initMap() {
   // to the map type control. 
   const map = new google.maps.Map(document.getElementById("map"), {
     center: {
-      lat: 49.23002196725411,
-      lng: 28.439022274667387
+      lat: 49.22706174686879,
+      lng: 28.43833785744028
     },
-    zoom: 17,
+    zoom: 15,
     mapTypeControlOptions: {
       mapTypeIds: ["roadmap", "satellite", "hybrid", "terrain", "styled_map"],
     },

@@ -647,7 +647,7 @@ header .header__container p {
   -webkit-transform: translate(-50% -50%);
           transform: translate(-50% -50%);
   left: 14.6%;
-  top: 50%;
+  top: 40%;
   width: 71%;
   margin: 0 auto;
   display: -ms-grid;
@@ -669,10 +669,6 @@ header .header__container p {
   display: flex;
 }
 
-.contact .name input {
-  width: 100%;
-}
-
 .contact .mail {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
@@ -680,10 +676,6 @@ header .header__container p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.contact .mail input {
-  width: 100%;
 }
 
 .contact .message {
@@ -699,6 +691,45 @@ header .header__container p {
 .contact .message textarea {
   width: 100%;
   height: 200px;
+  background-color: #d8d6e1;
+  opacity: 0.7;
+  border-radius: 4px;
+  border: none;
+  padding: 30px 0 0 30px;
+}
+
+.contact .inputs {
+  height: 57px;
+  width: 100%;
+  background-color: #d8d6e1;
+  opacity: 0.7;
+  border-radius: 4px;
+  border: none;
+  padding-left: 30px;
+}
+
+.contact ::-webkit-input-placeholder {
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact :-ms-input-placeholder {
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact ::-ms-input-placeholder {
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #fff;
+}
+
+.contact ::placeholder {
+  font-family: "PTSans Italic";
+  font-size: 18px;
+  color: #fff;
 }
 
 .contact .buttoh {
@@ -714,7 +745,27 @@ header .header__container p {
           justify-content: center;
 }
 
-.contact .inputs {
-  height: 57px;
+.contact .buttoh .btn {
+  font-family: "Proxima Nova Bold";
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #9f9acf;
+  margin: 25px 0 54px;
+  padding: 25px 70px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  border-bottom: 2px solid #8783b0;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.contact .buttoh .btn:hover {
+  color: #9f9acf;
+  background-color: #ebebeb;
+  border: 2px solid #8783b0;
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
 }
 /*# sourceMappingURL=style.css.map */
