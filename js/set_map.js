@@ -338,8 +338,8 @@ function initMap() {
   // to the map type control. 
   const map = new google.maps.Map(document.getElementById("map"), {
     center: {
-      lat: 49.22706174686879,
-      lng: 28.43833785744028
+      lat: 49.225555661437994,
+      lng: 28.431661225246224
     },
     zoom: 15,
     mapTypeControlOptions: {
