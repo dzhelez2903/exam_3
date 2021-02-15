@@ -644,8 +644,10 @@ header .header__container p {
 
 .contact .contacts__input {
   position: absolute;
-  top: 440px;
+  -webkit-transform: translate(-50% -50%);
+          transform: translate(-50% -50%);
   left: 14.6%;
+  top: 50%;
   width: 71%;
   margin: 0 auto;
   display: -ms-grid;
