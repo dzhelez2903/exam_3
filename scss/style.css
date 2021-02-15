@@ -54,11 +54,11 @@ header {
   padding-top: 35px;
 }
 
-header .header__menu__container {
+header .header__menu_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70%;
+  width: 68.75%;
   margin: 0 auto 330px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -68,21 +68,21 @@ header .header__menu__container {
           align-items: center;
 }
 
-header .header__menu__container img {
+header .header__menu_container img {
   padding-bottom: 10px;
 }
 
-header .header__menu__container .header__menu__container__menu {
+header .header__menu_container .header__menu__container__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 51%;
+  width: 51.35%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-header .header__menu__container .header__menu__container__menu .header__menu__container__menu_link {
+header .header__menu_container .header__menu__container__menu .header__menu__container__menu_link {
   font-family: "Proxima Nova Semibold";
   font-size: 24px;
   color: #fff;
@@ -93,7 +93,7 @@ header .header__menu__container .header__menu__container__menu .header__menu__co
   padding-bottom: 10px;
 }
 
-header .header__menu__container .header__menu__container__menu .header__menu__container__menu_link:hover {
+header .header__menu_container .header__menu__container__menu .header__menu__container__menu_link:hover {
   border-bottom: 2px solid #fff;
 }
 
@@ -546,13 +546,18 @@ header .header__container p {
   position: relative;
 }
 
+.our_team .our_team__slider .card .face {
+  position: absolute;
+  left: 14%;
+  z-index: 1;
+}
+
 .our_team .our_team__slider .card .text {
   background-color: #fff;
   width: 350px;
   height: 353px;
   position: absolute;
   top: 130px;
-  z-index: -1;
 }
 
 .our_team .our_team__slider .card .text .name {
@@ -577,6 +582,16 @@ header .header__container p {
 .our_team .our_team__slider .card .text .social li {
   display: inline-block;
   margin: 20px 15px 20px 0;
+  border-radius: 50%;
+}
+
+.our_team .our_team__slider .card .text .social li a :focus {
+  border: none;
+}
+
+.our_team .our_team__slider .card .text .social li:hover {
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
 }
 
 .our_team .our_team__slider .slick-track {
@@ -631,7 +646,7 @@ header .header__container p {
   text-align: center;
   position: absolute;
   top: 50px;
-  left: 46%;
+  left: 45%;
 }
 
 .contact .title__container h2 {
@@ -646,7 +661,7 @@ header .header__container p {
   position: absolute;
   left: 14.6%;
   top: 435px;
-  width: 71%;
+  width: 68.75%;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
@@ -790,6 +805,8 @@ header .header__container p {
 
 .contact .contacts__address:hover {
   right: -2px;
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
 }
 
 .contact .contacts__phone {
@@ -805,6 +822,8 @@ header .header__container p {
 
 .contact .contacts__phone:hover {
   right: -2px;
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
 }
 
 .contact .icons {
@@ -857,5 +876,55 @@ header .header__container p {
   position: absolute;
   right: 128px;
   top: 825px;
+}
+
+.contact .home:hover {
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+}
+
+footer {
+  width: 100%;
+  padding: 75px 0 75px;
+  background-color: #9f9acf;
+}
+
+footer .footer__container {
+  width: 68.75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer__container p {
+  font-family: "PTSans Regular";
+  font-size: 18px;
+  color: #fff;
+}
+
+footer .footer__container p span {
+  font-family: "PTSans Bold";
+}
+
+footer .social li {
+  display: inline-block;
+  margin: 0 25px 0 0;
+  border-radius: 50%;
+}
+
+footer .social li:nth-child(5) {
+  margin: 0;
+}
+
+footer .social li:hover {
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
 }
 /*# sourceMappingURL=style.css.map */
