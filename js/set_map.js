@@ -351,7 +351,7 @@ function initMap() {
   map.mapTypes.set("styled_map", styledMapType);
   map.setMapTypeId("styled_map");
 
-  image = '/img/icons/pin.png'
+  image = 'img/icons/pin.png'
   const marker = new google.maps.Marker({
     // The below line is equivalent to writing:
     // position: new google.maps.LatLng(-34.397, 150.644)
@@ -369,7 +369,7 @@ function initMap() {
   // we retrieve the marker's position using the
   // google.maps.LatLng.getPosition() method.
   const infowindow = new google.maps.InfoWindow({
-    content: '<p>Beetroot Academy</p><img src="/img/img/origami.png" alt="">',
+    content: '<p>Beetroot Academy</p><img src="img/img/origami.png" alt="">',
   });
   google.maps.event.addListener(marker, "click", () => {
     infowindow.open(map, marker);
