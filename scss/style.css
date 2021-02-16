@@ -659,9 +659,9 @@ header .header__container p {
 
 .contact .contacts__input {
   position: absolute;
-  left: 14.6%;
+  left: 22%;
   top: 435px;
-  width: 68.75%;
+  width: 53.75%;
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
