@@ -73,28 +73,76 @@ header .header__menu_container img {
 }
 
 header .header__menu_container .header__menu__container__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 51.35%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  gap: 0px 30px;
+      grid-template-areas: "home_menu about_menu services_menu works_menu contact_menu";
 }
 
-header .header__menu_container .header__menu__container__menu .header__menu__container__menu_link {
+header .header__menu_container .header__menu__container__menu a {
   font-family: "Proxima Nova Semibold";
   font-size: 24px;
   color: #fff;
   text-transform: uppercase;
-  border-bottom: 2px solid transparent;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  padding-bottom: 10px;
+  position: relative;
 }
 
-header .header__menu_container .header__menu__container__menu .header__menu__container__menu_link:hover {
-  border-bottom: 2px solid #fff;
+header .header__menu_container .header__menu__container__menu a::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  top: 35px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .header__menu_container .header__menu__container__menu a:hover {
+  text-shadow: 1px 1px 10px rgba(9, 141, 242, 0.48);
+}
+
+header .header__menu_container .header__menu__container__menu a:hover::after {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+}
+
+header .header__menu_container .home_menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: home_menu;
+}
+
+header .header__menu_container .about_menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: about_menu;
+}
+
+header .header__menu_container .services_menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: services_menu;
+}
+
+header .header__menu_container .works_menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: works_menu;
+}
+
+header .header__menu_container .contact_menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: contact_menu;
 }
 
 header .header__container {
@@ -110,10 +158,11 @@ header .header__container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 59%;
+  width: 100%;
 }
 
 header .header__container h1 {
+  margin: 0 auto;
   font-family: "Proxima Nova Bold";
   font-size: 71px;
   color: #fff;

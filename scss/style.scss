@@ -64,26 +64,66 @@ header {
       padding-bottom: 10px;
     }
 
-    .header__menu__container__menu {
-      display: flex;
-      width: 51.35%;
-      justify-content: space-between;
 
-      .header__menu__container__menu_link {
+    .header__menu__container__menu {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      grid-template-rows: auto;
+      gap: 0px 30px;
+      grid-template-areas:
+        "home_menu about_menu services_menu works_menu contact_menu";
+
+      a {
         font-family: "Proxima Nova Semibold";
         font-size: 24px;
         color: #fff;
         text-transform: uppercase;
-        border-bottom: 2px solid transparent;
         transition: 0.3s;
-        padding-bottom: 10px;
+        position: relative;
+
+        &::after {
+          position: absolute;
+          content: "";
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: transparent;
+          top: 35px;
+          transition: 0.3s;
+        }
 
         &:hover {
-          border-bottom: 2px solid #fff;
+          text-shadow: 1px 1px 10px rgba(9, 141, 242, 0.48);
+        }
+
+        &:hover::after {
+          background-color: #fff;
+          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
         }
       }
     }
+
+    .home_menu {
+      grid-area: home_menu;
+    }
+
+    .about_menu {
+      grid-area: about_menu;
+    }
+
+    .services_menu {
+      grid-area: services_menu;
+    }
+
+    .works_menu {
+      grid-area: works_menu;
+    }
+
+    .contact_menu {
+      grid-area: contact_menu;
+    }
   }
+
 
   .header__container {
     margin: 0px auto;
@@ -91,9 +131,10 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 59%;
+    width: 100%;
 
     h1 {
+      margin: 0 auto;
       font-family: "Proxima Nova Bold";
       font-size: 71px;
       color: #fff;
