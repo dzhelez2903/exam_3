@@ -34,15 +34,14 @@
 }
 
 html {
-  width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-body {
+/*body {
   width: 100%;
   overflow-x: hidden;
-}
+}*/
 
 header {
   margin: 0 auto;
@@ -533,7 +532,6 @@ header {
         .social {
           background-color: #9f9acf;
 
-
           li {
             display: inline-block;
             margin: 20px 15px 20px 0;
@@ -811,5 +809,4 @@ footer {
       }
     }
   }
-
 }
