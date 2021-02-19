@@ -599,71 +599,70 @@ header {
     text-transform: uppercase;
   }
 
-  .our_team__slider {
-    margin: 0 auto 50px;
-    width: 1110px;
+  .card {
+    height: 488px;
+    text-align: center;
     position: relative;
 
-    .card {
-      max-width: 350px;
-      height: 488px;
-      text-align: center;
-      margin: 0 auto;
-      position: relative;
+    .face {
+      position: absolute;
+      left: 14%;
+      z-index: 1;
+    }
 
-      .face {
-        position: absolute;
-        left: 14%;
-        z-index: 1;
+    .text {
+      background-color: #fff;
+      width: 350px;
+      height: 353px;
+      position: absolute;
+      top: 130px;
+
+      .name {
+        font-family: "Proxima Nova Bold";
+        font-size: 24px;
+        color: #9f9acf;
+        text-transform: uppercase;
+        padding-top: 165px;
       }
 
-      .text {
-        background-color: #fff;
-        width: 350px;
-        height: 353px;
-        position: absolute;
-        top: 130px;
+      .position {
+        font-family: "PTSans Italic";
+        font-size: 24px;
+        color: #665f60;
+        margin: 40px 0 40px;
+      }
 
-        .name {
-          font-family: "Proxima Nova Bold";
-          font-size: 24px;
-          color: #9f9acf;
-          text-transform: uppercase;
-          padding-top: 165px;
-        }
+      .social {
+        background-color: #9f9acf;
 
-        .position {
-          font-family: "PTSans Italic";
-          font-size: 24px;
-          color: #665f60;
-          margin: 40px 0 40px;
-        }
+        li {
+          display: inline-block;
+          margin: 20px 15px 20px 0;
+          border-radius: 50%;
 
-        .social {
-          background-color: #9f9acf;
-
-          li {
-            display: inline-block;
-            margin: 20px 15px 20px 0;
-            border-radius: 50%;
-
-            a {
-              :focus {
-                border: none;
-              }
+          a {
+            :focus {
+              border: none;
             }
+          }
 
-            &:hover {
-              box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
-            }
+          &:hover {
+            box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
           }
         }
       }
     }
+  }
+
+  .our_team__slider {
+    margin: 0 auto;
+    position: relative;
 
     .slick-track {
       margin: 0 auto;
       display: flex;
+      flex-direction: row;
+      width: 100%;
     }
 
     .slick-list {

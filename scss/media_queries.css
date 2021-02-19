@@ -17,6 +17,103 @@
 @media (min-width: 1200px) {
   
 }*/
+@media (max-width: 480px) {
+  header {
+    max-width: 480px;
+  }
+  header .header__menu_container {
+    width: 80%;
+    margin: 0 auto 200px;
+  }
+  header .header__menu_container .header__menu__container__menu {
+    display: none;
+  }
+  header .header__menu_container .header__mobile_menu {
+    display: block;
+  }
+  header .header__container {
+    width: 80%;
+    padding-bottom: 300px;
+  }
+  header .header__container h1 {
+    font-size: 60px;
+  }
+  header .header__container p {
+    font-size: 25px;
+  }
+  .about {
+    max-width: 480px;
+    padding: 50px 0 25px;
+  }
+  .about .about__container {
+    width: 80%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about .about__container .about__container__picture {
+    width: 100%;
+  }
+  .about .about__container .about__container__picture img {
+    width: 100%;
+    height: 75%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .about .about__container .about__container__text p:nth-child(2) {
+    margin: 35px 0 50px 0;
+  }
+  .SERVICESES {
+    max-width: 480px;
+  }
+  .works {
+    max-width: 480px;
+  }
+  .works .works__slider {
+    width: 80%;
+  }
+  .our_team {
+    max-width: 480px;
+  }
+  .our_team h2 {
+    margin: 35px 0 55px;
+  }
+  .contact {
+    max-width: 480px;
+  }
+  .contact .contacts__input {
+    top: 400px;
+    margin: 0 auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: auto auto auto;
+        grid-template-rows: auto auto auto;
+    gap: 30px 0px;
+        grid-template-areas: "name" "mail" "message" "message" "buttoh" "buttoh";
+  }
+  .contact .home {
+    right: 0;
+  }
+  footer {
+    max-width: 480px;
+    padding: 20px 0 20px;
+  }
+  footer .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .footer__container li {
+    margin: 0 25px 25px 0;
+  }
+}
+
 @media (max-width: 767px) {
   header {
     max-width: 767px;
@@ -67,35 +164,16 @@
   .SERVICESES {
     max-width: 767px;
   }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES h3 {
-    font-size: 20px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES p {
-    font-size: 16px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__GRAPHIC_DESIGN h3 {
-    font-size: 20px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__GRAPHIC_DESIGN p {
-    font-size: 16px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__WEB_DEVELOPMENT h3 {
-    font-size: 20px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__WEB_DEVELOPMENT p {
-    font-size: 16px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__SEO_MARKETING h3 {
-    font-size: 20px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__SEO_MARKETING p {
-    font-size: 16px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__MOBILE_DEVELOPMENT h3 {
-    font-size: 20px;
-  }
-  .SERVICESES .SERVICESES__grid_container .SERVICESES__MOBILE_DEVELOPMENT p {
-    font-size: 16px;
+  .SERVICESES .SERVICESES__grid_container {
+    width: 80%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 200px 200px 399px 200px 200px;
+        grid-template-rows: 200px 200px 399px 200px 200px;
+    gap: 0px 0px;
+        grid-template-areas: "SERVICESES__GRAPHIC_DESIGN" "SERVICESES__SEO_MARKETING" "SERVICESES__OUR_SERVICES" "SERVICESES__OUR_SERVICES" "SERVICESES__WEB_DEVELOPMENT" "SERVICESES__MOBILE_DEVELOPMENT";
   }
   .works {
     max-width: 767px;
@@ -105,12 +183,9 @@
   }
   .our_team {
     max-width: 767px;
-    margin: 0 auto;
-    padding: 55px 0 55px 0;
   }
   .our_team .our_team__slider {
-    margin: 0 auto;
-    width: 350px;
+    max-width: 350px;
   }
   .our_team h2 {
     margin: 35px 0 55px;
@@ -129,9 +204,6 @@
         grid-template-rows: auto auto auto;
     gap: 30px 0px;
         grid-template-areas: "name" "mail" "message" "message" "buttoh" "buttoh";
-  }
-  .contact .home {
-    right: 0;
   }
   footer {
     max-width: 767px;
@@ -212,16 +284,9 @@
   .works {
     max-width: 991px;
   }
-  .works .works__slider {
-    width: 80%;
-  }
   .our_team {
     max-width: 991px;
     padding: 55px 0 55px 0;
-  }
-  .our_team .our_team__slider {
-    margin: 0 auto;
-    width: 350px;
   }
   .our_team h2 {
     margin: 35px 0 55px;
@@ -255,6 +320,7 @@
   }
   .our_team {
     max-width: 1300px;
+    padding: 55px 0 55px 0;
   }
   .our_team .our_team__slider {
     width: 730px;
@@ -282,6 +348,9 @@
   }
   .our_team {
     width: 100%;
+  }
+  .our_team .our_team__slider {
+    width: 1110px;
   }
   .contact {
     width: 100%;

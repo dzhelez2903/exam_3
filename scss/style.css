@@ -706,27 +706,19 @@ header .header__container p {
   text-transform: uppercase;
 }
 
-.our_team .our_team__slider {
-  margin: 0 auto 50px;
-  width: 1110px;
-  position: relative;
-}
-
-.our_team .our_team__slider .card {
-  max-width: 350px;
+.our_team .card {
   height: 488px;
   text-align: center;
-  margin: 0 auto;
   position: relative;
 }
 
-.our_team .our_team__slider .card .face {
+.our_team .card .face {
   position: absolute;
   left: 14%;
   z-index: 1;
 }
 
-.our_team .our_team__slider .card .text {
+.our_team .card .text {
   background-color: #fff;
   width: 350px;
   height: 353px;
@@ -734,7 +726,7 @@ header .header__container p {
   top: 130px;
 }
 
-.our_team .our_team__slider .card .text .name {
+.our_team .card .text .name {
   font-family: "Proxima Nova Bold";
   font-size: 24px;
   color: #9f9acf;
@@ -742,30 +734,35 @@ header .header__container p {
   padding-top: 165px;
 }
 
-.our_team .our_team__slider .card .text .position {
+.our_team .card .text .position {
   font-family: "PTSans Italic";
   font-size: 24px;
   color: #665f60;
   margin: 40px 0 40px;
 }
 
-.our_team .our_team__slider .card .text .social {
+.our_team .card .text .social {
   background-color: #9f9acf;
 }
 
-.our_team .our_team__slider .card .text .social li {
+.our_team .card .text .social li {
   display: inline-block;
   margin: 20px 15px 20px 0;
   border-radius: 50%;
 }
 
-.our_team .our_team__slider .card .text .social li a :focus {
+.our_team .card .text .social li a :focus {
   border: none;
 }
 
-.our_team .our_team__slider .card .text .social li:hover {
+.our_team .card .text .social li:hover {
   -webkit-box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
           box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+}
+
+.our_team .our_team__slider {
+  margin: 0 auto;
+  position: relative;
 }
 
 .our_team .our_team__slider .slick-track {
@@ -773,6 +770,11 @@ header .header__container p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
 }
 
 .our_team .our_team__slider .slick-list {
