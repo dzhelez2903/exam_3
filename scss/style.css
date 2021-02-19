@@ -398,6 +398,7 @@ header .header__container p {
   background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
   background-position: cover;
   background-size: 100% 100%;
+  text-align: center;
 }
 
 .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES img {
@@ -439,6 +440,7 @@ header .header__container p {
           align-items: center;
   padding: 100px 70px 0;
   background-color: #dbdbdb;
+  text-align: center;
 }
 
 .SERVICESES .SERVICESES__GRAPHIC_DESIGN img {
@@ -475,6 +477,7 @@ header .header__container p {
       -ms-flex-align: center;
           align-items: center;
   padding: 100px 70px 0;
+  text-align: center;
 }
 
 .SERVICESES .SERVICESES__WEB_DEVELOPMENT img {
@@ -511,6 +514,7 @@ header .header__container p {
       -ms-flex-align: center;
           align-items: center;
   padding: 100px 70px 0;
+  text-align: center;
 }
 
 .SERVICESES .SERVICESES__SEO_MARKETING img {
@@ -548,6 +552,7 @@ header .header__container p {
           align-items: center;
   padding: 100px 65px 0;
   background-color: #dbdbdb;
+  text-align: center;
 }
 
 .SERVICESES .SERVICESES__MOBILE_DEVELOPMENT img {
@@ -1112,6 +1117,7 @@ footer .footer__container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 footer .footer__container p {

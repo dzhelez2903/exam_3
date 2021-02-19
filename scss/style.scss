@@ -339,6 +339,7 @@ header {
       background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
       background-position: cover;
       background-size: 100% 100%;
+      text-align: center;
 
       img {
         width: 62px;
@@ -372,6 +373,7 @@ header {
     align-items: center;
     padding: 100px 70px 0;
     background-color: #dbdbdb;
+    text-align: center;
 
     img {
       width: 47px;
@@ -399,6 +401,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 100px 70px 0;
+    text-align: center;
 
     img {
       width: 58px;
@@ -426,6 +429,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 100px 70px 0;
+    text-align: center;
 
     img {
       width: 47px;
@@ -454,6 +458,7 @@ header {
     align-items: center;
     padding: 100px 65px 0;
     background-color: #dbdbdb;
+    text-align: center;
 
     img {
       width: 36px;
@@ -920,6 +925,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 
     p {
       font-family: "PTSans Regular";
