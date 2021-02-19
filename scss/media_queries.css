@@ -170,8 +170,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: 200px 200px 399px 200px 200px;
-        grid-template-rows: 200px 200px 399px 200px 200px;
+    -ms-grid-rows: 200px 200px 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px 200px 200px;
     gap: 0px 0px;
         grid-template-areas: "SERVICESES__GRAPHIC_DESIGN" "SERVICESES__SEO_MARKETING" "SERVICESES__OUR_SERVICES" "SERVICESES__OUR_SERVICES" "SERVICESES__WEB_DEVELOPMENT" "SERVICESES__MOBILE_DEVELOPMENT";
   }
