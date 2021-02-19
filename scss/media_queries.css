@@ -105,6 +105,7 @@
   }
   .our_team {
     max-width: 767px;
+    margin: 0 auto;
     padding: 55px 0 55px 0;
   }
   .our_team .our_team__slider {
