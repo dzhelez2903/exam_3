@@ -65,7 +65,7 @@ header .header__menu_container .header__menu__container__menu {
   grid-template-areas: "home_menu about_menu services_menu works_menu contact_menu";
 }
 header .header__menu_container .header__menu__container__menu a {
-  font-family: "Proxima Nova Semibold", serif;
+  font-family: "Proxima Nova Semibold", sans-serif;
   font-size: 24px;
   color: #fff;
   text-transform: uppercase;
@@ -175,7 +175,7 @@ header .header__mobile_menu_active .header__mobile_menu__nav {
   transition: 0.3s;
 }
 header .header__mobile_menu__link {
-  font-family: "Proxima Nova Semibold", serif;
+  font-family: "Proxima Nova Semibold", sans-serif;
   font-size: 24px;
   color: #fff;
   text-transform: uppercase;
@@ -209,14 +209,14 @@ header .header__container {
 }
 header .header__container h1 {
   margin: 0 auto;
-  font-family: "Proxima Nova Bold", serif;
+  font-family: "Proxima Nova Bold", sans-serif;
   font-size: 71px;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 45px;
 }
 header .header__container p {
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 30px;
   color: #fff;
 }
@@ -237,7 +237,7 @@ header .header__container p {
 }
 .about .about__container .about__container__text {
   padding-top: 80px;
-  font-family: "PTSans Regular", serif;
+  font-family: "PTSans Regular", sans-serif;
   font-size: 20px;
   color: #665f60;
   position: relative;
@@ -246,14 +246,14 @@ header .header__container p {
   margin: 35px 0 95px;
 }
 .about .about__container .about__container__text span {
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
 }
 .about .about__container .about__container__text .about__btn__container {
   display: flex;
   justify-content: center;
 }
 .about .about__container .about__container__text .about__btn {
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 20px;
   color: #7d7a7c;
   padding: 20px 50px;
@@ -297,19 +297,19 @@ header .header__container p {
 }
 .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES h3 {
   margin: 30px 0 123px 0;
-  font-family: "Proxima Nova Semibold", serif;
+  font-family: "Proxima Nova Semibold", sans-serif;
   font-size: 35px;
   color: #fff;
 }
 .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES p {
   display: block;
   text-align: center;
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 18px;
   color: #fff;
 }
 .SERVICESES .SERVICESES__grid_container .SERVICESES__OUR_SERVICES p span {
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
 }
 .SERVICESES .SERVICESES__GRAPHIC_DESIGN {
   grid-area: SERVICESES__GRAPHIC_DESIGN;
@@ -325,14 +325,14 @@ header .header__container p {
 }
 .SERVICESES .SERVICESES__GRAPHIC_DESIGN h3 {
   margin: 30px 0 25px 0;
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
   font-size: 24px;
   color: #665f60;
 }
 .SERVICESES .SERVICESES__GRAPHIC_DESIGN p {
   display: block;
   text-align: center;
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 18px;
   color: #665f60;
 }
@@ -349,14 +349,14 @@ header .header__container p {
 }
 .SERVICESES .SERVICESES__WEB_DEVELOPMENT h3 {
   margin: 30px 0 25px 0;
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
   font-size: 24px;
   color: #665f60;
 }
 .SERVICESES .SERVICESES__WEB_DEVELOPMENT p {
   display: block;
   text-align: center;
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 18px;
   color: #665f60;
 }
@@ -373,14 +373,14 @@ header .header__container p {
 }
 .SERVICESES .SERVICESES__SEO_MARKETING h3 {
   margin: 30px 0 25px 0;
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
   font-size: 24px;
   color: #665f60;
 }
 .SERVICESES .SERVICESES__SEO_MARKETING p {
   display: block;
   text-align: center;
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 18px;
   color: #665f60;
 }
@@ -398,14 +398,14 @@ header .header__container p {
 }
 .SERVICESES .SERVICESES__MOBILE_DEVELOPMENT h3 {
   margin: 30px 0 25px 0;
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
   font-size: 24px;
   color: #665f60;
 }
 .SERVICESES .SERVICESES__MOBILE_DEVELOPMENT p {
   display: block;
   text-align: center;
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 18px;
   color: #665f60;
 }
@@ -421,7 +421,7 @@ header .header__container p {
 }
 .works h2 {
   margin: 35px 0 70px;
-  font-family: "Proxima Nova Semibold", serif;
+  font-family: "Proxima Nova Semibold", sans-serif;
   font-size: 36px;
   color: #fff;
   text-transform: uppercase;
@@ -488,7 +488,7 @@ header .header__container p {
   padding: 0;
 }
 .works .works__btn {
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 20px;
   color: #fff;
   padding: 20px 45px;
@@ -513,7 +513,7 @@ header .header__container p {
 }
 .our_team h2 {
   margin: 35px 0 195px;
-  font-family: "Proxima Nova Semibold", serif;
+  font-family: "Proxima Nova Semibold", sans-serif;
   font-size: 36px;
   color: #665f60;
   text-transform: uppercase;
@@ -536,14 +536,14 @@ header .header__container p {
   top: 130px;
 }
 .our_team .card .text .name {
-  font-family: "Proxima Nova Bold", serif;
+  font-family: "Proxima Nova Bold", sans-serif;
   font-size: 24px;
   color: #9f9acf;
   text-transform: uppercase;
   padding-top: 165px;
 }
 .our_team .card .text .position {
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 24px;
   color: #665f60;
   margin: 40px 0 40px;
@@ -640,7 +640,7 @@ header .header__container p {
 }
 .contact .title__container h2 {
   margin: 25px 0 0;
-  font-family: "Proxima Nova Semibold", serif;
+  font-family: "Proxima Nova Semibold", sans-serif;
   font-size: 36px;
   color: #fff;
   text-transform: uppercase;
@@ -656,7 +656,7 @@ header .header__container p {
   grid-template-columns: 50% 50%;
   grid-template-rows: auto auto auto;
   gap: 30px 30px;
-  grid-template-areas: "name mail" "message message" "buttoh buttoh";
+  grid-template-areas: "name mail" "message message" "button button";
 }
 .contact .name {
   grid-area: name;
@@ -695,17 +695,17 @@ header .header__container p {
   box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48) inset;
 }
 .contact ::placeholder {
-  font-family: "PTSans Italic", serif;
+  font-family: "PTSans Italic", sans-serif;
   font-size: 18px;
   color: #fff;
 }
-.contact .buttoh {
-  grid-area: buttoh;
+.contact .button {
+  grid-area: button;
   display: flex;
   justify-content: center;
 }
-.contact .buttoh .btn {
-  font-family: "Proxima Nova Bold", serif;
+.contact .button .btn {
+  font-family: "Proxima Nova Bold", sans-serif;
   font-size: 20px;
   color: #fff;
   text-transform: uppercase;
@@ -718,7 +718,7 @@ header .header__container p {
   cursor: pointer;
   transition: 0.3s;
 }
-.contact .buttoh .btn:hover {
+.contact .button .btn:hover {
   color: #9f9acf;
   background-color: #ebebeb;
   border: 2px solid #9f9acf;
@@ -762,7 +762,7 @@ header .header__container p {
   justify-content: center;
   align-items: center;
   padding-left: 20px;
-  font-family: "PTSans Regular", serif;
+  font-family: "PTSans Regular", sans-serif;
   font-size: 18px;
   color: #665f60;
 }
@@ -794,12 +794,12 @@ footer .footer__container {
   text-align: center;
 }
 footer .footer__container p {
-  font-family: "PTSans Regular", serif;
+  font-family: "PTSans Regular", sans-serif;
   font-size: 18px;
   color: #fff;
 }
 footer .footer__container p span {
-  font-family: "PTSans Bold", serif;
+  font-family: "PTSans Bold", sans-serif;
 }
 footer .social li {
   display: inline-block;
