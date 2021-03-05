@@ -75,7 +75,7 @@ header {
         "home_menu about_menu services_menu works_menu contact_menu";
 
       a {
-        font-family: "Proxima Nova Semibold";
+        font-family: "Proxima Nova Semibold", serif;
         font-size: 24px;
         color: #fff;
         text-transform: uppercase;
@@ -99,7 +99,7 @@ header {
 
         &:hover::after {
           background-color: #fff;
-          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
         }
       }
     }
@@ -208,7 +208,7 @@ header {
   }
 
   .header__mobile_menu__link {
-    font-family: "Proxima Nova Semibold";
+    font-family: "Proxima Nova Semibold", serif;
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
@@ -235,7 +235,7 @@ header {
   }
 
   .header__container {
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0 0 445px;
     display: flex;
     flex-direction: column;
@@ -245,7 +245,7 @@ header {
 
     h1 {
       margin: 0 auto;
-      font-family: "Proxima Nova Bold";
+      font-family: "Proxima Nova Bold", serif;
       font-size: 71px;
       color: #fff;
       text-transform: uppercase;
@@ -253,7 +253,7 @@ header {
     }
 
     p {
-      font-family: "PTSans Italic.woff";
+      font-family: "PTSans Italic", serif;
       font-size: 30px;
       color: #fff;
     }
@@ -277,7 +277,7 @@ header {
 
     .about__container__text {
       padding-top: 80px;
-      font-family: "PTSans Regular";
+      font-family: "PTSans Regular", serif;
       font-size: 20px;
       color: #665f60;
       position: relative;
@@ -287,7 +287,7 @@ header {
       }
 
       span {
-        font-family: "PTSans Bold";
+        font-family: "PTSans Bold", serif;
       }
 
       .about__btn__container {
@@ -296,7 +296,7 @@ header {
       }
 
       .about__btn {
-        font-family: "PTSans Italic";
+        font-family: "PTSans Italic", serif;
         font-size: 20px;
         color: #7d7a7c;
         padding: 20px 50px;
@@ -307,7 +307,7 @@ header {
         &:hover {
           background-color: #7d7a7c;
           color: #fff;
-          box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+          box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
         }
       }
     }
@@ -325,7 +325,7 @@ header {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 400px 399px;
-    gap: 0px 0px;
+    gap: 0 0;
     grid-template-areas:
       "SERVICESES__GRAPHIC_DESIGN SERVICESES__WEB_DEVELOPMENT SERVICESES__OUR_SERVICES"
       "SERVICESES__SEO_MARKETING SERVICESES__MOBILE_DEVELOPMENT SERVICESES__OUR_SERVICES";
@@ -347,7 +347,7 @@ header {
 
       h3 {
         margin: 30px 0 123px 0;
-        font-family: "Proxima Nova Semibold";
+        font-family: "Proxima Nova Semibold", serif;
         font-size: 35px;
         color: #fff;
       }
@@ -355,12 +355,12 @@ header {
       p {
         display: block;
         text-align: center;
-        font-family: "PTSans Italic";
+        font-family: "PTSans Italic", serif;
         font-size: 18px;
         color: #fff;
 
         span {
-          font-family: "PTSans Bold";
+          font-family: "PTSans Bold", serif;
         }
       }
     }
@@ -381,7 +381,7 @@ header {
 
     h3 {
       margin: 30px 0 25px 0;
-      font-family: "PTSans Bold";
+      font-family: "PTSans Bold", serif;
       font-size: 24px;
       color: #665f60;
     }
@@ -389,7 +389,7 @@ header {
     p {
       display: block;
       text-align: center;
-      font-family: "PTSans Italic";
+      font-family: "PTSans Italic", serif;
       font-size: 18px;
       color: #665f60;
     }
@@ -409,7 +409,7 @@ header {
 
     h3 {
       margin: 30px 0 25px 0;
-      font-family: "PTSans Bold";
+      font-family: "PTSans Bold", serif;
       font-size: 24px;
       color: #665f60;
     }
@@ -417,7 +417,7 @@ header {
     p {
       display: block;
       text-align: center;
-      font-family: "PTSans Italic";
+      font-family: "PTSans Italic", serif;
       font-size: 18px;
       color: #665f60;
     }
@@ -437,7 +437,7 @@ header {
 
     h3 {
       margin: 30px 0 25px 0;
-      font-family: "PTSans Bold";
+      font-family: "PTSans Bold", serif;
       font-size: 24px;
       color: #665f60;
     }
@@ -445,7 +445,7 @@ header {
     p {
       display: block;
       text-align: center;
-      font-family: "PTSans Italic";
+      font-family: "PTSans Italic", serif;
       font-size: 18px;
       color: #665f60;
     }
@@ -466,7 +466,7 @@ header {
 
     h3 {
       margin: 30px 0 25px 0;
-      font-family: "PTSans Bold";
+      font-family: "PTSans Bold", serif;
       font-size: 24px;
       color: #665f60;
     }
@@ -474,7 +474,7 @@ header {
     p {
       display: block;
       text-align: center;
-      font-family: "PTSans Italic";
+      font-family: "PTSans Italic", serif;
       font-size: 18px;
       color: #665f60;
     }
@@ -492,7 +492,7 @@ header {
 
   h2 {
     margin: 35px 0 70px;
-    font-family: "Proxima Nova Semibold";
+    font-family: "Proxima Nova Semibold", serif;
     font-size: 36px;
     color: #fff;
     text-transform: uppercase;
@@ -571,7 +571,7 @@ header {
   }
 
   .works__btn {
-    font-family: "PTSans Italic";
+    font-family: "PTSans Italic", serif;
     font-size: 20px;
     color: #fff;
     padding: 20px 45px;
@@ -584,7 +584,7 @@ header {
     &:hover {
       background-color: #fff;
       color: #b5b3d7;
-      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+      box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
     }
   }
 }
@@ -598,7 +598,7 @@ header {
 
   h2 {
     margin: 35px 0 195px;
-    font-family: "Proxima Nova Semibold";
+    font-family: "Proxima Nova Semibold", serif;
     font-size: 36px;
     color: #665f60;
     text-transform: uppercase;
@@ -623,7 +623,7 @@ header {
       top: 130px;
 
       .name {
-        font-family: "Proxima Nova Bold";
+        font-family: "Proxima Nova Bold", serif;
         font-size: 24px;
         color: #9f9acf;
         text-transform: uppercase;
@@ -631,7 +631,7 @@ header {
       }
 
       .position {
-        font-family: "PTSans Italic";
+        font-family: "PTSans Italic", serif;
         font-size: 24px;
         color: #665f60;
         margin: 40px 0 40px;
@@ -652,7 +652,7 @@ header {
           }
 
           &:hover {
-            box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+            box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
           }
         }
       }
@@ -678,7 +678,7 @@ header {
       position: absolute;
       top: 56%;
       z-index: 1;
-      font-size: 0px;
+      font-size: 0;
       width: 22px;
       height: 38px;
       border: none;
@@ -749,7 +749,7 @@ header {
 
     h2 {
       margin: 25px 0 0;
-      font-family: "Proxima Nova Semibold";
+      font-family: "Proxima Nova Semibold", serif;
       font-size: 36px;
       color: #fff;
       text-transform: uppercase;
@@ -797,7 +797,7 @@ header {
       padding: 30px 0 0 30px;
 
       &:focus {
-        box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
+        box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48) inset;
       }
     }
   }
@@ -812,12 +812,12 @@ header {
     padding-left: 30px;
 
     &:focus {
-      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48) inset;
+      box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48) inset;
     }
   }
 
   ::placeholder {
-    font-family: "PTSans Italic";
+    font-family: "PTSans Italic", serif;
     font-size: 18px;
     color: #fff;
   }
@@ -828,7 +828,7 @@ header {
     justify-content: center;
 
     .btn {
-      font-family: "Proxima Nova Bold";
+      font-family: "Proxima Nova Bold", serif;
       font-size: 20px;
       color: #fff;
       text-transform: uppercase;
@@ -845,7 +845,7 @@ header {
         color: #9f9acf;
         background-color: #ebebeb;
         border: 2px solid #9f9acf;
-        box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+        box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
       }
     }
   }
@@ -858,8 +858,8 @@ header {
     transition: 0.3s;
 
     &:hover {
-      right: 0px;
-      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+      right: 0;
+      box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
     }
   }
 
@@ -871,8 +871,8 @@ header {
     transition: 0.3s;
 
     &:hover {
-      right: 0px;
-      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+      right: 0;
+      box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
     }
   }
 
@@ -893,7 +893,7 @@ header {
     justify-content: center;
     align-items: center;
     padding-left: 20px;
-    font-family: "PTSans Regular";
+    font-family: "PTSans Regular", serif;
     font-size: 18px;
     color: #665f60;
   }
@@ -910,7 +910,7 @@ header {
     top: 825px;
 
     &:hover {
-      box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+      box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
     }
   }
 }
@@ -928,12 +928,12 @@ footer {
     text-align: center;
 
     p {
-      font-family: "PTSans Regular";
+      font-family: "PTSans Regular", serif;
       font-size: 18px;
       color: #fff;
 
       span {
-        font-family: "PTSans Bold";
+        font-family: "PTSans Bold", serif;
       }
     }
   }
@@ -949,7 +949,7 @@ footer {
       }
 
       &:hover {
-        box-shadow: 1px 0px 10px 0px rgba(9, 141, 242, 0.48);
+        box-shadow: 1px 0 10px 0 rgba(9, 141, 242, 0.48);
       }
     }
   }
