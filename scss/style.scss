@@ -70,7 +70,7 @@ header {
       display: grid;
       grid-template-columns: auto auto auto auto auto;
       grid-template-rows: auto;
-      gap: 0px 30px;
+      gap: 0 30px;
       grid-template-areas:
         "home_menu about_menu services_menu works_menu contact_menu";
 
@@ -191,7 +191,7 @@ header {
     position: fixed;
     top: -5%;
     right: -100%;
-    z-index: 1;
+    z-index: 1000;
     display: flex;
     flex-flow: column;
     text-align: center;
