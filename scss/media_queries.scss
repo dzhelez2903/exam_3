@@ -63,7 +63,7 @@
       display: grid;
       grid-template-columns: 100%;
       grid-template-rows: auto auto 200px 199px auto auto;
-      gap: 0px 0px;
+      gap: 0 0;
       grid-template-areas:
         "SERVICESES__GRAPHIC_DESIGN"
         "SERVICESES__SEO_MARKETING"
@@ -125,16 +125,16 @@
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto auto auto;
-      gap: 30px 0px;
+      gap: 30px 0;
       grid-template-areas:
         "name"
         "mail"
         "message"
         "message"
-        "buttoh"
-        "buttoh";
+        "button"
+        "button";
     }
-    .buttoh {
+    .button {
       .btn {
         margin: 0 0 0 0;
       }
@@ -225,7 +225,7 @@
       display: grid;
       grid-template-columns: 100%;
       grid-template-rows: auto auto 200px 199px auto auto;
-      gap: 0px 0px;
+      gap: 0 0;
       grid-template-areas:
         "SERVICESES__GRAPHIC_DESIGN"
         "SERVICESES__SEO_MARKETING"
@@ -287,210 +287,211 @@
       display: grid;
       grid-template-columns: auto;
       grid-template-rows: auto auto auto;
-      gap: 30px 0px;
+      gap: 30px 0;
       grid-template-areas:
         "name"
         "mail"
         "message"
         "message"
-        "buttoh"
-        "buttoh";
+        "button"
+        "button";
     }
 
     .home {
       display: none;
     }
-  }
+    }
 
-  footer {
-    max-width: 767px;
-    padding: 20px 0 20px;
+    footer {
+      max-width: 767px;
+      padding: 20px 0 20px;
 
-    .footer__container {
-      flex-direction: column-reverse;
-      justify-content: space-around;
+      .footer__container {
+        flex-direction: column-reverse;
+        justify-content: space-around;
 
-      li {
-        margin: 0 25px 25px 0;
+        li {
+          margin: 0 25px 25px 0;
+        }
       }
     }
   }
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
-  header {
-    max-width: 991px;
+  @media (min-width: 768px) and (max-width: 991px) {
+    header {
+      max-width: 991px;
 
-    .header__menu_container {
-      width: 80%;
+      .header__menu_container {
+        width: 80%;
+      }
     }
-  }
 
-  .about {
-    max-width: 991px;
-    padding: 50px 0 25px;
+    .about {
+      max-width: 991px;
+      padding: 50px 0 25px;
 
-    .about__container {
-      width: 80%;
-      flex-direction: column;
+      .about__container {
+        width: 80%;
+        flex-direction: column;
 
-      .about__container__picture {
-        width: 100%;
-
-        img {
+        .about__container__picture {
           width: 100%;
-          height: 75%;
-          flex-shrink: 0;
-        }
-      }
 
-      .about__container__text {
-        & p:nth-child(2) {
-          margin: 35px 0 50px 0;
+          img {
+            width: 100%;
+            height: 75%;
+            flex-shrink: 0;
+          }
+        }
+
+        .about__container__text {
+          & p:nth-child(2) {
+            margin: 35px 0 50px 0;
+          }
         }
       }
     }
-  }
 
-  .SERVICESES {
-    max-width: 991px;
+    .SERVICESES {
+      max-width: 991px;
 
-    .SERVICESES__grid_container {
-      width: 80%;
-      display: grid;
-      grid-template-columns: 50% 50%;
-      grid-template-rows: 400px 399px 400px;
-      gap: 0px 0px;
-      grid-template-areas:
+      .SERVICESES__grid_container {
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 400px 399px 400px;
+        gap: 0 0;
+        grid-template-areas:
         "SERVICESES__GRAPHIC_DESIGN SERVICESES__OUR_SERVICES"
         "SERVICESES__SEO_MARKETING SERVICESES__OUR_SERVICES"
         "SERVICESES__MOBILE_DEVELOPMENT SERVICESES__WEB_DEVELOPMENT";
 
-      .SERVICESES__OUR_SERVICES {
-        padding: 100px 20px 0;
+        .SERVICESES__OUR_SERVICES {
+          padding: 100px 20px 0;
+        }
+
+        .SERVICESES__GRAPHIC_DESIGN {
+          padding: 100px 30px 0;
+        }
+
+        .SERVICESES__WEB_DEVELOPMENT {
+          padding: 100px 30px 0;
+        }
+
+        .SERVICESES__SEO_MARKETING {
+          padding: 100px 30px 0;
+        }
+
+        .SERVICESES__MOBILE_DEVELOPMENT {
+          padding: 100px 30px 0;
+        }
+      }
+    }
+
+    .works {
+      max-width: 991px;
+
+      .works__slider {
+        width: 80%;
+      }
+    }
+
+    .our_team {
+      max-width: 991px;
+      padding: 55px 0 55px 0;
+
+      .our_team__slider {
+        width: 730px;
       }
 
-      .SERVICESES__GRAPHIC_DESIGN {
-        padding: 100px 30px 0;
-      }
-
-      .SERVICESES__WEB_DEVELOPMENT {
-        padding: 100px 30px 0;
-      }
-
-      .SERVICESES__SEO_MARKETING {
-        padding: 100px 30px 0;
-      }
-
-      .SERVICESES__MOBILE_DEVELOPMENT {
-        padding: 100px 30px 0;
+      h2 {
+        margin: 35px 0 55px;
       }
     }
-  }
 
-  .works {
-    max-width: 991px;
+    .contact {
+      max-width: 991px;
 
-    .works__slider {
-      width: 80%;
+      .contacts__input {
+        width: 80%;
+      }
+
+      .home {
+        right: 0;
+      }
+    }
+
+    footer {
+      max-width: 991px;
     }
   }
 
-  .our_team {
-    max-width: 991px;
-    padding: 55px 0 55px 0;
-
-    .our_team__slider {
-      width: 730px;
+  @media (min-width: 992px) and (max-width: 1300px) {
+    header {
+      max-width: 1300px;
     }
 
-    h2 {
-      margin: 35px 0 55px;
-    }
-  }
-
-  .contact {
-    max-width: 991px;
-
-    .contacts__input {
-      width: 80%;
+    .about {
+      max-width: 1300px;
     }
 
-    .home {
-      right: 0;
+    .SERVICESES {
+      max-width: 1300px;
     }
-  }
 
-  footer {
-    max-width: 991px;
-  }
-}
+    .works {
+      max-width: 1300px;
+    }
 
-@media (min-width: 992px) and (max-width: 1300px) {
-  header {
-    max-width: 1300px;
-  }
+    .our_team {
+      max-width: 1300px;
+      padding: 55px 0 55px 0;
 
-  .about {
-    max-width: 1300px;
-  }
+      .our_team__slider {
+        width: 730px;
+      }
+    }
 
-  .SERVICESES {
-    max-width: 1300px;
-  }
+    .contact {
+      max-width: 1300px;
+    }
 
-  .works {
-    max-width: 1300px;
-  }
-
-  .our_team {
-    max-width: 1300px;
-    padding: 55px 0 55px 0;
-
-    .our_team__slider {
-      width: 730px;
+    footer {
+      max-width: 1300px;
     }
   }
 
-  .contact {
-    max-width: 1300px;
-  }
+  @media (min-width: 1301px) {
+    header {
+      width: 100%;
+    }
 
-  footer {
-    max-width: 1300px;
-  }
-}
+    .about {
+      width: 100%;
+    }
 
-@media (min-width: 1301px) {
-  header {
-    width: 100%;
-  }
+    .SERVICESES {
+      width: 100%;
+    }
 
-  .about {
-    width: 100%;
-  }
+    .works {
+      width: 100%;
+    }
 
-  .SERVICESES {
-    width: 100%;
-  }
+    .our_team {
+      width: 100%;
 
-  .works {
-    width: 100%;
-  }
+      .our_team__slider {
+        width: 1110px;
+      }
+    }
 
-  .our_team {
-    width: 100%;
+    .contact {
+      width: 100%;
+    }
 
-    .our_team__slider {
-      width: 1110px;
+    footer {
+      width: 100%;
     }
   }
 
-  .contact {
-    width: 100%;
-  }
-
-  footer {
-    width: 100%;
-  }
-}

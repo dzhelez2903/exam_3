@@ -1,3 +1,5 @@
+@import "reset";
+
 @font-face {
   font-family: "Proxima Nova Bold";
   src: url(../fonts/ProximaNova-Bold.woff);
@@ -337,7 +339,6 @@ header {
       align-items: center;
       padding: 110px 65px 0;
       background: url(../img/img/unsplash_523ae1f5502d6_1.png) no-repeat;
-      background-position: cover;
       background-size: 100% 100%;
       text-align: center;
 
@@ -485,9 +486,7 @@ header {
   margin: 0 auto;
   text-align: center;
   padding: 50px 0 0 0;
-  background: url(../img/bgd/works_bgd.png) no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
+  background: url(../img/bgd/works_bgd.png) no-repeat fixed center center;
   background-size: 100% 100%;
 
   h2 {
